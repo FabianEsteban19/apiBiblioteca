@@ -1,8 +1,9 @@
 package com.proyecto.biblioteca.service;
 
-import com.biblioteca.cibertec.Biblioteca2024.model.Libro;
 
 import java.util.List;
+
+import com.proyecto.biblioteca.model.Libro;
 
 public interface ILibroService {
     public List<Libro> listarLibro();

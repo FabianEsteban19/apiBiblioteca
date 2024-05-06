@@ -1,9 +1,9 @@
 package com.proyecto.biblioteca.service;
 
-import com.biblioteca.cibertec.Biblioteca2024.model.Autor;
-import com.biblioteca.cibertec.Biblioteca2024.model.Libro;
 
 import java.util.List;
+
+import com.proyecto.biblioteca.model.Autor;
 
 public interface IAutorService {
     public List<Autor> listarAutor();

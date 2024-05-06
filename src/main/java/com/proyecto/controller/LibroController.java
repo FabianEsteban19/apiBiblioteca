@@ -1,7 +1,7 @@
 package com.proyecto.controller;
 
 import com.proyecto.biblioteca.model.Libro;
-import com.proyecto.biblioteca.service.impl.ILibroService;
+import com.proyecto.biblioteca.service.ILibroService;
 
 import lombok.AllArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;

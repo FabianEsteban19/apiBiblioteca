@@ -3,9 +3,10 @@ package com.proyecto.biblioteca.service.impl;
 import com.proyecto.biblioteca.model.Autor;
 import com.proyecto.biblioteca.model.Libro;
 import com.proyecto.biblioteca.repo.IAutorRepo;
-import com.proyecto.biblioteca.service.impl.IAutorService;
+import com.proyecto.biblioteca.service.IAutorService;
 
 import lombok.AllArgsConstructor;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

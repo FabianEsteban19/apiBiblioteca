@@ -3,8 +3,7 @@ package com.proyecto.controller;
 
 import com.proyecto.biblioteca.model.Autor;
 import com.proyecto.biblioteca.model.Libro;
-import com.proyecto.biblioteca.service.impl.IAutorService;
-import com.proyecto.biblioteca.service.impl.ILibroService;
+import com.proyecto.biblioteca.service.IAutorService;
 
 import lombok.AllArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,7 +18,7 @@ import java.util.List;
 @RequestMapping("api/v1/autor")
 public class AutorController {
     @Autowired
-    private IAutorService autorService;
+    private IAutorService  autorService;
 
     @GetMapping
     public ResponseEntity<?> listarAutor() {
