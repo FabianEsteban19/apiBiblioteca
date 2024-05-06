@@ -3,6 +3,6 @@ COPY . .
 RUN mvn clean package -DskipTests
 
 FROM openjdk:17.0.1-jdk-slim
-COPY --from=build /target/biblioteca-1.0.jar /biblioteca-1.0.jar
+COPY --from=build /target/biblioteca-1.0.jar /biblioteca.jar
 EXPOSE 8080
-ENTRYPOINT [ "java","-jar","/biblioteca-1.0.jar" ]
+ENTRYPOINT [ "java","-jar","/biblioteca.jar" ]
